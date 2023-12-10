@@ -3,21 +3,20 @@
 #fixed{
 	background-color: #6C754F;
 	position: fixed;
-		
-	
+
 }
 
-.container{
+#bg-image{
 	align-content: center;
 	padding-top: 30%;
 }
-.container h1{
+#bg-image h1{
 	color: #FFFFFF;
 	font-family: 'Kalnia', serif;
 	
 	}
 
-.container h3{
+#bg-image h3{
 	font-family: 'Afacad', sans-serif;
 	color: #FFFFFF;
 	font-size: 20px;
@@ -34,7 +33,145 @@
 	
 }
 
+.img-standard{
+	width:450px;
+	height:230px;
+	object-fit:cover;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.60);
+	
+	}
+.img-standard-vertical{
+	width: 230px;
+	height: 450px;
+	object-fit:cover;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.60);
+}
 
-.works{
+.work{
 	background-color: #4C5435;
+	padding-top: 10%;
+	padding-bottom: 5%;
+	
+}
+.work h1{
+	color: #FFFFFF;
+	font-family: 'Kalnia', serif;
+}
+.work h2{
+	color: #FFFFFF;
+	font-family: 'Kalnia', serif;
+	font-size: 25px;
+	font-weight:thin;
+}
+#traditional-art{
+	padding-top: 10%;
+}
+
+footer {
+	background-color:#6C754F;
+	padding-top: 5%;
+	color: #FFFFFF;
+	font-family: 'Kalnia', serif;
+	text-align: center;
+	padding: 20px;
+	
+}
+
+.servicios{
+	background-color: #4C5435;
+	padding: 50%;
+}
+
+
+.section-green{
+	color:#000000;
+	background-color:#4C5435;
+	padding:5%;
+}
+#about-features{
+	padding-top: 10%;
+	padding-bottom: 5%;
+}
+#about-features i{
+	font-size: 45px;
+	color: #FFFFFF;
+}
+#about-features h3{
+	font-family: 'Kalnia', serif;
+	color: #FFFFFF;
+}
+#about-features p{
+	font-family: 'Afacad', sans-serif;
+	font-size: 18px;
+	color: #8c8c70;
+}
+
+.acerca-de-mi{
+	padding-top: 10%;
+	padding-bottom: 5%;
+	background-color: #4C5435;
+}
+
+.acerca-de-mi h1{
+	color: #FFFFFF;
+	font-family: 'Kalnia', serif;
+}
+
+.acerca-de-mi p{
+	padding: 3%;
+	color: #8c8c70;
+	font-family: 'Afacad', sans-serif;
+	text-align: left;
+	font-size: 19px;
+}
+
+#contact{
+	padding-top: 10%;
+	padding-bottom: 5%;
+	background-color: #4C5435;
+}
+#contact h2{
+	color: #FFFFFF;
+	font-family: 'Kalnia', serif;
+}
+#contact p{
+	color: #8c8c70;
+	font-family: 'Afacad', sans-serif;
+}
+#correo-electronico{
+	color: #8c8c70;
+	font-family: 'Afacad', sans-serif;
+}
+#contact i{
+	color: #8c8c70;
+}
+.btn-primary{
+	background-color:rgba(0,0,0,0.00);
+	padding: 15px 40px;
+	border-color:#FFFFFF;
+	border-radius: 0;
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 600;
+	letter-spacing: 3px;
+	font-family: 'Kalnia', serif;
+	
+}
+.btn-primary:hover{
+	background-color:#d96e38;
+	color:#FFFFFF;
+	border-color: #d96e38;
+}
+.form-control{
+	border-radius: 0px;
+	background-color:#6C754F;
+	border-color: #000000;
+	color: #FFFFFF;
+	font-family: 'Kalnia', serif;
+}
+.form-control:focus{
+	background-color:#6C754F;
+	color: #FFFFFF;
+	font-family: 'Afacad', sans-serif;
+	
 }
